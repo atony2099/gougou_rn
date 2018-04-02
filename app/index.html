@@ -1,0 +1,71 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script type="text/javascript">
+    // 数组 增加
+    var ar1 = [1,2,3];
+    var ar2 = [4,5];
+// ===========concat
+// contact对原数组无影响
+    var arrLa = ar1.concat(ar2)
+    console.log(ar1,arrLa,"contact");
+
+var nameAll = {name:"tang"}
+  var k = [nameAll,nameAll];
+  k = k.map((ele,index) => {
+    console.log(ele,index);
+    ele.index = index;
+    return ele;
+  })
+  console.log(k[0],"kkkkk");
+
+
+
+//  slice================
+// let arr = [];
+// arr.slice();
+// // [0, end]
+// arr.slice(begin);
+// // [begin, end]
+//
+// arr.slice(begin, end);
+// // [begin, end)
+
+
+var kk = [1,2,3,4,5];
+var kk1 = kk.slice();
+var kk2 = kk.slice(1);
+var kk3 = kk.slice(1,2);
+
+console.log(kk1,kk2,kk3);
+
+// var gg =
+
+
+
+
+
+
+
+
+
+
+// ========= findIndexof
+var array3 = [5, 12, 8, 130, 44];
+
+function findFirstLargeNumber(element) {
+  return element > 200;
+}
+
+console.log(array3.findIndex(findFirstLargeNumber));
+
+console.log(!-1);
+
+
+  </script>
+</head>
+<body>
+  hello world
+</body>
+</html>
