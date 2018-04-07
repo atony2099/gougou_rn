@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "mockjs": "^1.0.1-beta3",
-    "prop-types": "^15.6.1",
     "react": "16.2.0",
     "react-native": "0.53.0",
     "react-native-sk-countdown": "^1.0.1",

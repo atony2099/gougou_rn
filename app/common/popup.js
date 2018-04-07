@@ -1,5 +1,5 @@
 'use strict'
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import React, {Component} from 'react'
 import {
   StyleSheet,
@@ -80,11 +80,11 @@ export default class Popup extends React.Component {
 
 
 // 1. default type
-Popup.propTypes = {
-  tips:PropTypes.object,
-  showTime:PropTypes.number,
-  // shouldShow:PropTypes.boolean
-}
+// Popup.propTypes = {
+//   tips:PropTypes.object,
+//   showTime:PropTypes.number,
+//   // shouldShow:PropTypes.boolean
+// }
 
 // // 2.default value
 // Popup.defaultProps = {

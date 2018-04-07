@@ -8,7 +8,6 @@ import React, {Component} from 'react'
 import {CountDownText} from '../../components/react-native-countdown'
 import Popup from '../../common/popup'
 import {getVerifyCode,verify}  from  '../../fetch/user/verify'
-
 import * as Tips from '../../common/tips/verifyTips'
 import {LoginError} from '../../common/Error/CustomError'
 
@@ -25,7 +24,7 @@ import {
 } from 'react-native';
 const {width} = Dimensions.get('window')
 
-export default class user extends React.Component {
+export default class login extends React.Component {
   constructor(props, context) {
     super(props, context);
     this.placeHolder = '请输入手机号码',
@@ -119,10 +118,10 @@ export default class user extends React.Component {
         }else {
           this.updatePopValue(Tips.errorNetAlert)
         }
-
       })
     }
   }
+
 
   updatePopValue(pop,delayTime = 1500){
     this.setState({pop})

@@ -84,7 +84,7 @@ export const Root = StackNavigator({
     }
   }
 }, {
-  initialRouteName: "Login",
+  initialRouteName: "User",
   navigationOptions: {
     headerTintColor:'red'
   },
